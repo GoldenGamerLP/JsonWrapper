@@ -28,7 +28,7 @@ public final class JsonConfigurationLoader<T> {
     private static final JsonProvider jsonProvider;
 
     static {
-        jsonProvider = JsonMapper.JSON_PROVIDER;
+        jsonProvider = JsonMapper.getJsonProvider();
     }
 
     private final Class<T> of;
