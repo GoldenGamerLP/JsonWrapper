@@ -48,8 +48,8 @@ public final class JsonConfigurationLoader<T> {
 
     /**
      * @param file The File to write/read to.
-     * @param of The class to be used.
-     * @param <T> The corresponding class
+     * @param of   The class to be used.
+     * @param <T>  The corresponding class
      * @return The FileDataLoader class.
      */
     public static <T> JsonConfigurationLoader<T> of(@NotNull File file, @NotNull Class<T> of) {
@@ -57,10 +57,10 @@ public final class JsonConfigurationLoader<T> {
     }
 
     /**
-     * @param path The path to the file.
+     * @param path          The path to the file.
      * @param configuration The file to write/read to.
-     * @param of The class to be used.
-     * @param <T> The corresponding class
+     * @param of            The class to be used.
+     * @param <T>           The corresponding class
      * @return The FileDataLoader class.
      */
     public static <T> JsonConfigurationLoader<T> of(@NotNull Path path, File configuration, @NotNull Class<T> of) {

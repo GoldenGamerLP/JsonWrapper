@@ -24,6 +24,7 @@ public interface JsonProvider {
     <T> T fromJson(Reader reader, Class<T> clazz);
 
     //add serializer and a deserializer
+
     /**
      * Add a serializer and a deserializer to the provider. <br>
      * <b>Gson:</b> {@link com.google.gson.JsonDeserializer} and {@link com.google.gson.JsonSerializer}
@@ -32,7 +33,8 @@ public interface JsonProvider {
      * <br>
      * <b>Moshi:</b> {@link Moshi}. In the Class use {@code @ToJson and @FromJson} on the methods.
      * <br>
-     * @param clazz The class to bound the serializer to
+     *
+     * @param clazz       The class to bound the serializer to
      * @param serializers A list of serializer and deserializer.
      * @param <T>
      */

@@ -85,3 +85,15 @@
 {"ts":1676218645380,"action":"IDE_ACTIVATED"}
 {"ts":1676218937982,"action":"IDE_DEACTIVATED"}
 {"ts":1676218963443,"action":"IDE_ACTIVATED"}
+{"ts":1676219019284,"action":"FILE_CLOSED","file":"/src/main/java/me/alex/jsonwrapper/JsonProvider.java","tags":{"FILE_LINE_OF_CODE":"41"}}
+{"ts":1676219019284,"action":"FILE_OPENED","file":"/src/main/java/me/alex/jsonwrapper/JsonMapper.java","tags":{"FILE_LINE_OF_CODE":"36"}}
+{"ts":1676219044399,"action":"FILE_CLOSED","file":"/src/main/java/me/alex/jsonwrapper/JsonMapper.java","tags":{"FILE_LINE_OF_CODE":"44"}}
+{"ts":1676219044399,"action":"FILE_OPENED","file":"/src/main/java/me/alex/jsonwrapper/configurations/JsonConfigurationLoader.java","tags":{"FILE_LINE_OF_CODE":"118"}}
+{"ts":1676219101860,"action":"IDE_DEACTIVATED"}
+{"ts":1676219522341,"action":"IDE_ACTIVATED"}
+{"ts":1676219588329,"action":"IDE_DEACTIVATED"}
+{"ts":1676219669870,"action":"IDE_ACTIVATED"}
+{"ts":1676219673386,"action":"FILE_CLOSED","file":"/src/main/java/me/alex/jsonwrapper/configurations/JsonConfigurationLoader.java","tags":{"FILE_LINE_OF_CODE":"118"}}
+{"ts":1676219673386,"action":"FILE_OPENED","file":"/build.gradle","tags":{"FILE_LINE_OF_CODE":"21"}}
+{"ts":1676219701492,"action":"IDE_DEACTIVATED"}
+{"ts":1676219717580,"action":"IDE_ACTIVATED"}
