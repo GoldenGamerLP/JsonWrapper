@@ -81,7 +81,7 @@ public class MoshiProviderImpl implements JsonProvider {
     public <T> void addSerializer(Class<T> clazz, List<Object> serializers) {
         Moshi.Builder builder = moshi.newBuilder();
         for (Object serializer : serializers) {
-            if (serializer instanceof me.alex.minesumo.utils.json.Moshi) {
+            if (serializer instanceof Moshi) {
                 builder.add(serializer);
             }
         }

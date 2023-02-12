@@ -3,6 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
+apply plugin: 'maven-publish'
 group 'me.alex.jsonwrapper'
 version '1.0-SNAPSHOT'
 
