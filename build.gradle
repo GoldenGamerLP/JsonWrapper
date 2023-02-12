@@ -21,3 +21,15 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
 }
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'me.alex.jsonwrapper'
+            artifactId = 'JsonWrapper'
+            version = '1.0'
+
+            from components.java
+        }
+    }
+}
